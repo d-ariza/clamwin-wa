@@ -1,5 +1,5 @@
-# [ClamWin WebAdmin](http://www.creative-tim.com/product/light-bootstrap-dashboard)
-[![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+# ClamWin WebAdmin
+[![version][version-badge]][CHANGELOG] [![license](https://img.shields.io/github/license/coldscientist/clamwin-wa.svg?maxAge=2592000)](https://github.com/coldscientist/clamwin-wa/blob/master/LICENSE)
 
 ![ClamWin WebAdmin Screenshot](assets/img/clamwin-webadmin.png "ClamWin WebAdmin")
 
@@ -16,17 +16,16 @@ What works:
 + REST API (Proxy only).
 + ClamWinCli (GetProxy and SetProxy only).
 
-### Wish list
+## Wish list
 
 - DOCUMENTATION!
 - Implement MySQL database to save server config.
-- Manage workstations from WebAdmin (query ClamAV update status, quarantine, logs, etc).
+- Manage workstations from WebAdmin (query ClamAV update version and status, quarantine, logs, etc).
 - Group of workstations (e.g: allow specific config. for a group of workstations).
 - Install ClamWin and ClamSentinel through WebAdmin (WMI or through ClamWinCli?)
 - Implement Login page.
 - Active Directory integration (e.g: Login).
 - Encrypt (PKI or OAuth?) and Secure (.htaccess is enough?) REST API.
-- Virus Database version from workstations.
 - Port ClamWinCli to run as a service.
 
 ## Special thanks go to:
@@ -40,7 +39,7 @@ You can develop it through [Visual Studio Code](https://code.visualstudio.com/do
 
 ### Testing WebAdmin UI and REST API
 
-You can use (XAMPP)[https://sourceforge.net/projects/xampp/] to test the WebAdmin UI and the REST API. The code doesn't require any special requirements right now, only PHP.
+You can use [XAMPP](https://sourceforge.net/projects/xampp/) to test the WebAdmin UI and the REST API. The code doesn't require any special requirements right now, only PHP.
 
 You can download this repository as ZIP (using the green button "Clone or download") or you can install [Git](https://git-scm.com/downloads) to clone the repo at your Apache installation:
 
@@ -80,11 +79,7 @@ It will create a new directory called **build** at `clients\src\clamwincli` that
 ## License
 
 - Copyright 2018 Eduardo Mozart de Oliveira (http://www.nethouse.inf.br)
-- Licensed under MIT ([LICENSE])
+- Licensed under GPL ([LICENSE])
 
-## Useful Links
-
-[CHANGELOG]: ./CHANGELOG.md
-[LICENSE]: ./LICENSE.md
 [version-badge]: https://img.shields.io/badge/version-0.0.1-blue.svg
-[license-badge]: https://img.shields.io/badge/license-GPL-blue.svg
+[license-badge]: https://img.shields.io/badge/license-GPL-blue.svg 

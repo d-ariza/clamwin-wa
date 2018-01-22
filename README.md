@@ -1,5 +1,5 @@
 # ClamWin WebAdmin
-[![version][version-badge]][CHANGELOG] [![license](https://img.shields.io/github/license/coldscientist/clamwin-wa.svg?maxAge=2592000)](https://github.com/coldscientist/clamwin-wa/blob/master/LICENSE)
+[![version](https://img.shields.io/badge/version-0.0.1-blue.svg)][CHANGELOG] [![license](https://img.shields.io/github/license/coldscientist/clamwin-wa.svg?maxAge=2592000)](https://github.com/coldscientist/clamwin-wa/blob/master/LICENSE)
 
 ![ClamWin WebAdmin Screenshot](assets/img/clamwin-webadmin.png "ClamWin WebAdmin")
 
@@ -80,6 +80,3 @@ It will create a new directory called **build** at `clients\src\clamwincli` that
 
 - Copyright 2018 Eduardo Mozart de Oliveira (http://www.nethouse.inf.br)
 - Licensed under GPL ([LICENSE])
-
-[version-badge]: https://img.shields.io/badge/version-0.0.1-blue.svg
-[license-badge]: https://img.shields.io/badge/license-GPL-blue.svg 

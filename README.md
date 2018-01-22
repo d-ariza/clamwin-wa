@@ -1,5 +1,5 @@
 # ClamWin WebAdmin
-[![version](https://img.shields.io/badge/version-0.0.1-blue.svg)][CHANGELOG] [![license](https://img.shields.io/github/license/coldscientist/clamwin-wa.svg?maxAge=2592000)](https://github.com/coldscientist/clamwin-wa/blob/master/LICENSE)
+[![version][version-badge]][CHANGELOG] [![license][license-badge]](https://github.com/coldscientist/clamwin-wa/blob/master/LICENSE)
 
 ![ClamWin WebAdmin Screenshot](assets/img/clamwin-webadmin.png "ClamWin WebAdmin")
 
@@ -16,7 +16,7 @@ What works:
 + REST API (Proxy only).
 + ClamWinCli (GetProxy and SetProxy only).
 
-## Wish list
+### Wish list
 
 - DOCUMENTATION!
 - Implement MySQL database to save server config.
@@ -27,6 +27,7 @@ What works:
 - Active Directory integration (e.g: Login).
 - Encrypt (PKI or OAuth?) and Secure (.htaccess is enough?) REST API.
 - Port ClamWinCli to run as a service.
+- WebAdmin Translation support (SSAS? html lang tag?)
 
 ## Special thanks go to:
 
@@ -79,4 +80,11 @@ It will create a new directory called **build** at `clients\src\clamwincli` that
 ## License
 
 - Copyright 2018 Eduardo Mozart de Oliveira (http://www.nethouse.inf.br)
-- Licensed under GPL ([LICENSE])
+- Licensed under [GPL](https://github.com/coldscientist/clamwin-wa/blob/master/LICENSE)
+
+## Useful Links
+
+[CHANGELOG]: ./CHANGELOG.md
+[LICENSE]: ./LICENSE.md
+[version-badge]: https://img.shields.io/badge/version-0.0.1-blue.svg
+[license-badge]: https://img.shields.io/github/license/coldscientist/clamwin-wa.svg?maxAge=2592000
